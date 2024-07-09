@@ -57,6 +57,10 @@ To lazy load images add the class of "lazy" to the image. This will speed up loa
 ### create gallery
 If you have a div with the class of mainbody, then all the images within that div will become a gallery. Clicking on any image will open a gallery modal
 
+## Favicon
+There is a folder in the images folder called favicon_io , you can generate your own favicons at https://favicon.io
+after generated, save the icon images to this folder.
+
 ### Javascript
 JQuery is loaded inline on the header.php file.
 extra javascript is added in the footer.php file.
@@ -65,8 +69,8 @@ extra javascript is added in the footer.php file.
 The width of each screen type is in header.php , look for max-width
 ```
 .wrapper .container{
-              max-width:80rem
-          }
+  max-width:80rem
+}
 ```
 
 ## Help
@@ -75,7 +79,7 @@ you are on your own. Aint nobody got time to support this.
 
 ## Authors
 
-Contributors names and contact info
+Contributors names 
 
 ex. Johnny Niumata 
 
