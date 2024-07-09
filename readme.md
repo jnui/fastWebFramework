@@ -29,7 +29,7 @@ This framework uses milligram CSS - https://milligram.io which is fast, view the
 ### How to use example.php
 
 * Open and rename example.php file (for example rename it products.php)
-* * view
+  * view
 ```
 code blocks for commands
 ```
