@@ -26,10 +26,10 @@ This framework uses milligram CSS - https://milligram.io which is fast, view the
 * upload to a web server, and go to the root (it will load index.php)
 * view and copy example.php file , rename it to your new page name and update it
 
-### Executing program
+### How to use example.php
 
-* How to run the program
-* Step-by-step bullets
+* Open and rename example.php file (for example rename it products.php)
+* * view
 ```
 code blocks for commands
 ```
