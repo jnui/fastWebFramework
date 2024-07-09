@@ -28,11 +28,22 @@ This framework uses milligram CSS - https://milligram.io which is fast, view the
 
 ### How to use example.php
 
-* Open and rename example.php file (for example rename it products.php)
-  * view
+* Open and rename example.php file (for example rename it product_a.php)
+  * in your new page edit the variables inside  the "includeWithVariables" function
+  
 ```
-code blocks for commands
+includeWithVariables('header.php', array(
+  'title' => 'Pipe Materials',
+  'metadescription' => 'We stock all the pipe we need so there are no delays sourcing pipe',
+  'theurl' => 'example.php',
+  'keywords' => 'pipe materials in stock, stock of pipe, drain pipe in stock'));
+  'extraClasses' => ''
 ```
+  * title - this is the meta title
+  * metadescription - self explanatory
+  * theurl - this is for the canonical tag, it should be the file name 
+  * keywords - meta keywords
+  * extraClasses - this adds Css class names to the body tag, use commas if more than one class added to body tag
 
 ## Help
 
