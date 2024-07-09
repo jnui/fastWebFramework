@@ -786,13 +786,13 @@
         <section class="container">
           <a class="navigation-title" href="/">
             
-           <img class="Home logo" src="/images/small-logo.webp" height="108" width="200" title="Fast website Homepage small logo" />
+           <img class="Home logo" src="/images/small-logo.png" height="108" width="200" title="Fast website Homepage small logo" />
          </a>
 
           <div class="float-right contactInfo">
-              <h4 class="sitework">Sitework Palm Beach FL</h4>
-              <h4 >SMC Contracting <br><a class="underlinelink" href="tel:5616898848">561-689-8848</a></h4>
-              <p>3114 Tuxedo Ave, <br>West Palm Beach FL 33405</p>
+              <h4 class="sitework">Fast Web Pages</h4>
+              <h4 >FWP  <br><a class="underlinelink" href="tel:5616898848">561-555-1212</a></h4>
+              <p>3114 TheStreet Ave, <br>West Palm Beach FL 33405</p>
           </div>
           
         </section>
