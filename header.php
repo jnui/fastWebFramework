@@ -786,7 +786,7 @@
         <section class="container">
           <a class="navigation-title" href="/">
             
-           <img class="Home logo" src="/images/small-logo.png" height="108" width="200" title="Fast website Homepage small logo" />
+           <img class="Home logo" src="../images/small-logo.png" height="108" width="200" title="Fast website Homepage small logo" />
          </a>
 
           <div class="float-right contactInfo">
