@@ -36,28 +36,49 @@ includeWithVariables('header.php', array(
   'title' => 'Pipe Materials',
   'metadescription' => 'We stock all the pipe we need so there are no delays sourcing pipe',
   'theurl' => 'example.php',
-  'keywords' => 'pipe materials in stock, stock of pipe, drain pipe in stock'));
+  'keywords' => 'pipe materials in stock, stock of pipe, drain pipe in stock',
   'extraClasses' => ''
+));
 ```
   * title - this is the meta title
   * metadescription - self explanatory
   * theurl - this is for the canonical tag, it should be the file name 
   * keywords - meta keywords
   * extraClasses - this adds Css class names to the body tag, use commas if more than one class added to body tag
+* once you have edited that function you can start editing the html on this page
+  * change the H1 tag
+  * for the milligram css, create a div with class "row"
+    * inside the row div add a div with class column
+  
+
+### Lazy loading images
+To lazy load images add the class of "lazy" to the image. This will speed up loading.
+
+### create gallery
+If you have a div with the class of mainbody, then all the images within that div will become a gallery. Clicking on any image will open a gallery modal
+
+### Javascript
+JQuery is loaded inline on the header.php file.
+extra javascript is added in the footer.php file.
+
+## CSS tips.
+The width of each screen type is in header.php , look for max-width
+```
+.wrapper .container{
+              max-width:80rem
+          }
+```
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+you are on your own. Aint nobody got time to support this.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Johnny Niumata 
+
 
 ## Version History
 

@@ -26,8 +26,10 @@ includeWithVariables('header.php', array(
   'title' => 'Pipe Materials',
   'metadescription' => 'We stock all the pipe we need so there are no delays sourcing pipe',
   'theurl' => 'example.php',
-  'keywords' => 'pipe materials in stock, stock of pipe, drain pipe in stock'));
+  'keywords' => 'pipe materials in stock, stock of pipe, drain pipe in stock',
   'extraClasses' => ''
+));
+  
 ?>
 
 
