@@ -171,7 +171,7 @@
         window.addEventListener("orientationChange", lazyload);
       });    
 
-function() {
+(function() {
     for (var e = document.querySelectorAll("[data-popover]"), n = document.querySelectorAll(".popover"), t = 0; t < e.length; t++)
         e[t].addEventListener("click", r);
     function o(e) {
@@ -185,7 +185,7 @@ function() {
         e.stopImmediatePropagation()
     }
     document.addEventListener("click", o)
-}()  
+})();  
     </script>
     
     

@@ -62,7 +62,11 @@ If you have a div with the class of mainbody, then all the images within that di
 There is a folder in the images folder called favicon_io , you can generate your own favicons at https://favicon.io
 after generated, save the icon images to this folder.
 
-### Javascript
+## Menus
+These pages include the same menu system that is found on the milligram.io website.
+To add links just find the navigation on the header.php file
+
+## Javascript
 JQuery is loaded inline on the header.php file.
 extra javascript is added in the footer.php file.
 
