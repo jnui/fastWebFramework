@@ -784,7 +784,7 @@
     <main class="wrapper">
       <nav class="navigation">
         <section class="container">
-          <a class="navigation-title" href="/">
+          <a class="navigation-title" href="index.php">
             
            <img class="Home logo" src="images/small-logo.png" height="108" width="200" title="Fast website Homepage small logo" />
          </a>
@@ -794,6 +794,45 @@
               <h4 >FWP  <br><a class="underlinelink" href="tel:5616898848">561-555-1212</a></h4>
               <p>3114 TheStreet Ave, <br>West Palm Beach FL 33405</p>
           </div>
-          
+          <ul class="navigation-list float-right">
+            <li class="navigation-item">
+              <a class="navigation-link" href="#popover-grid" data-popover="">Docs</a>
+                <div class="popover" id="popover-grid">
+                  <ul class="popover-list">
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#getting-started" title="Getting Started">Getting Started</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#typography" title="Typography">Typography</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#blockquotes" title="Blockquotes">Blockquotes</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#buttons" title="Buttons">Buttons</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#lists" title="Lists">Lists</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#forms" title="Forms">Forms</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#tables" title="Tables">Tables</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#grids" title="Grids">Grids</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#code" title="Code">Code</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#utilities" title="Utilities">Utilities</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#tips" title="Tips">Tips</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#browser-support" title="Browser Support">Browser Support</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#showcase" title="Showcase">Showcase</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#examples" title="Examples">Examples</a></li>
+                    <li class="popover-item"><a class="popover-link" href="https://milligram.io/#contributing" title="Contributing">Contributing</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#popover-support" data-popover="">Support</a>
+                  <div class="popover" id="popover-support">
+                    <ul class="popover-list">
+                      <li class="popover-item"><a class="popover-link" href="https://github.com/milligram/milligram" rel="noopener" target="_blank" title="On Github">On Github</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://twitter.com/cjpatoilo" rel="noopener" target="_blank" title="On Twitter">On Twitter</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://codepen.io/collection/DOjjOY/" rel="noopener" target="_blank" title="On Codepen">On Codepen</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://gitter.im/milligram/milligram" rel="noopener" target="_blank" title="On Community">On Community</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://github.com/milligram/milligram/issues/new" rel="noopener" target="_blank" title="Need help?">Need help?</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://medium.com/@cjpatoilo" rel="noopener" target="_blank" title="What's New">What's New</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://milligram.io/#license" rel="noopener" target="_blank" title="License">License</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://github.com/milligram/milligram/releases" rel="noopener" target="_blank" title="Versions">Versions</a></li>
+                      <li class="popover-item"><a class="popover-link" href="https://opencollective.com/milligram" rel="noopener" target="_blank" title="Support Us">Support Us</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
         </section>
       </nav>

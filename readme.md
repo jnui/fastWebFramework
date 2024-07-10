@@ -25,6 +25,7 @@ This framework uses milligram CSS - https://milligram.io which is fast, view the
 * download from this github repo
 * upload to a web server, and go to the root (it will load index.php)
 * view and copy example.php file , rename it to your new page name and update it
+* keep copying example.php and renaming
 
 ### How to use example.php
 
@@ -72,6 +73,14 @@ The width of each screen type is in header.php , look for max-width
   max-width:80rem
 }
 ```
+## SEO
+I have included a structured data section at the bottom of each page in a script tag.
+The format is LD-Json - please lookup information on how to use this
+you can test your structured data at https://search.google.com/test/rich-results
+
+There is a sitemap.xml file for you to add all your pages. 
+
+I have added some social media icons/links
 
 ## Help
 

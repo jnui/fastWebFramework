@@ -3,9 +3,9 @@
 require __DIR__ . '/varfunc.php';
 
 includeWithVariables('header.php', array(
-  'title' => 'My Meta Description here',
+  'title' => 'My Meta Description here home page',
   'metadescription' => 'This is a great SEO type of description for this page about fast websites',
-  'theurl' => 'example.php',
+  'theurl' => 'index.php',
   'keywords' => 'fast website, fast loading websites, fast php website framework',
   'extraClasses' => ''
 ));
@@ -15,7 +15,7 @@ includeWithVariables('header.php', array(
 
 
       <section class="container" id="examples">
-        <h1>Fast loading website framework in PHP</h1>
+        <h1>Home page , Fast loading website framework in PHP</h1>
         <div class="row mainbody">
           <div class="column">
         
