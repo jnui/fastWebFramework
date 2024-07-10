@@ -2,6 +2,8 @@
 
 A very simple fast and lightweight website framework using straight php files. This framework was made to get the highest possible score on google page-speed tests.
 
+Note: Please only use this website template if you are familiar with editing CSS and PHP.
+
 ## Description
 
 This framework uses straight PHP as the basis of a website framework.
