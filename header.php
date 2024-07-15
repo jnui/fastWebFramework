@@ -62,20 +62,30 @@
               top:94%;
               transform:translateX(-50%)
           }
+          .popover.popover-open {
+            display: block;
+          }
           h1 {
               font-size: 2.6rem;
           }
           .navigation {
-              display: block;
+              display: none;
               text-align: center;
               background:#f4f5f6;
               border-bottom:.1rem solid #d1d1d1;
               transition: 0.2s;
               position:relative;
               max-width: 100%;
-              height:31.2rem;
+              
               z-index: 2;
               top:0;
+          }
+          section.container {
+        position: relative;
+        padding-top: 405px; /* Adjust the value as needed */
+    }
+          .navigation .nav-container {
+            height: auto; /* This will make the container adjust its height based on the content */
           }
           .navigation .float-right {
               clear:both;
@@ -87,7 +97,7 @@
               background:#f4f5f6;
               border-bottom:.1rem solid #d1d1d1;
               display:block;
-              height:12.2rem;
+              
               left:0;
               max-width:100%;
               position:fixed;
