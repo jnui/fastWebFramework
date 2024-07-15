@@ -15,11 +15,11 @@ This framework uses milligram CSS - https://milligram.io which is fast, view the
 ### Dependencies
 
 * PHP on your web server
-* jQuery
-* milligram CSS https://milligram.io loaded inline in header.php
-* optional google fonts loaded in header.php
-* normalize.css loaded in header.php
-* custom css loaded in header.php
+* jQuery (loaded inline on header.php file)
+* milligram CSS https://milligram.io (loaded inline in header.php)
+* optional google fonts (loaded in header.php)
+* normalize.css (loaded in header.php)
+* custom css (loaded in header.php)
 
 
 ### Installing
@@ -55,7 +55,7 @@ includeWithVariables('header.php', array(
   
 
 ### Lazy loading images
-To lazy load images add the class of "lazy" to the image. This will speed up loading.
+To lazy load images add the class of "lazy" to the image. This will speed up page loading.
 
 ### create gallery
 If you have a div with the class of mainbody, then all the images within that div will become a gallery. Clicking on any image will open a gallery modal
@@ -71,6 +71,7 @@ To add links just find the navigation on the header.php file
 ## Javascript
 JQuery is loaded inline on the header.php file.
 extra javascript is added in the footer.php file.
+If you want to add google analytics do it in the footer (for speed purposes)
 
 ## CSS tips.
 The width of each screen type is in header.php , look for max-width
@@ -84,7 +85,7 @@ I have included a structured data section at the bottom of each page in a script
 The format is LD-Json - please lookup information on how to use this
 you can test your structured data at https://search.google.com/test/rich-results
 
-There is a sitemap.xml file for you to add all your pages. 
+There is a sitemap.xml file for you to add all your pages for google to crawl.
 
 I have added some social media icons/links
 
@@ -96,7 +97,7 @@ you are on your own. Aint nobody got time to support this.
 
 Contributors names 
 
-ex. Johnny Niumata 
+Johnny Niumata 
 
 
 ## Version History
